@@ -14,7 +14,7 @@ func TestMain(t *testing.T) {
 	RegisterFailHandler(Fail)
 	BeforeSuite(func() {
 		var err error
-		pathToBoshUtils, err = gexec.Build("github.com/cloudfoundry/bosh-utils/main")
+		pathToBoshUtils, err = gexec.Build("github.com/bluebosh/bosh-utils/main")
 		Ω(err).ShouldNot(HaveOccurred())
 	})
 

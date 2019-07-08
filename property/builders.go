@@ -3,7 +3,7 @@ package property
 import (
 	"reflect"
 
-	bosherr "github.com/cloudfoundry/bosh-utils/errors"
+	bosherr "github.com/bluebosh/bosh-utils/errors"
 )
 
 // BuildMap creates a new string keyed map from an interface{}-keyed map, erroring if a key is not a string

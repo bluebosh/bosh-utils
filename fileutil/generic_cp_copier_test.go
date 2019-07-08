@@ -9,9 +9,9 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-utils/fileutil"
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
-	boshsys "github.com/cloudfoundry/bosh-utils/system"
+	. "github.com/bluebosh/bosh-utils/fileutil"
+	boshlog "github.com/bluebosh/bosh-utils/logger"
+	boshsys "github.com/bluebosh/bosh-utils/system"
 )
 
 var _ = Describe("genericCpCopier", func() {

@@ -1,7 +1,7 @@
 package crypto_test
 
 import (
-	"github.com/cloudfoundry/bosh-utils/crypto"
+	"github.com/bluebosh/bosh-utils/crypto"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

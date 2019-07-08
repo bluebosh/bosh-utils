@@ -6,12 +6,12 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	boshblob "github.com/cloudfoundry/bosh-utils/blobstore"
-	fakeblob "github.com/cloudfoundry/bosh-utils/blobstore/fakes"
-	boshcrypto "github.com/cloudfoundry/bosh-utils/crypto"
-	bosherr "github.com/cloudfoundry/bosh-utils/errors"
+	boshblob "github.com/bluebosh/bosh-utils/blobstore"
+	fakeblob "github.com/bluebosh/bosh-utils/blobstore/fakes"
+	boshcrypto "github.com/bluebosh/bosh-utils/crypto"
+	bosherr "github.com/bluebosh/bosh-utils/errors"
 
-	fakesys "github.com/cloudfoundry/bosh-utils/system/fakes"
+	fakesys "github.com/bluebosh/bosh-utils/system/fakes"
 )
 
 var _ = Describe("checksumVerifiableBlobstore", func() {

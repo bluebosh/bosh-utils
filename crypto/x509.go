@@ -5,7 +5,7 @@ import (
 	"encoding/pem"
 	"strings"
 
-	bosherr "github.com/cloudfoundry/bosh-utils/errors"
+	bosherr "github.com/bluebosh/bosh-utils/errors"
 )
 
 func CertPoolFromPEM(pemCerts []byte) (*x509.CertPool, error) {

@@ -11,7 +11,7 @@ semver=`cat version-semver/number`
 timestamp=`date -u +"%Y-%m-%dT%H:%M:%SZ"`
 filename="verify-multidigest-${semver}-${GOOS}-${GOARCH}"
 
-cd gopath/src/github.com/cloudfoundry/bosh-utils
+cd gopath/src/github.com/bluebosh/bosh-utils
 
 bin/require-ci-golang-version
 

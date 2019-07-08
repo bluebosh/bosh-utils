@@ -8,7 +8,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-utils/system/fakes"
+	. "github.com/bluebosh/bosh-utils/system/fakes"
 	"time"
 )
 

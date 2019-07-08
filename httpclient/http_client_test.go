@@ -13,8 +13,8 @@ import (
 	"crypto/tls"
 	"time"
 
-	. "github.com/cloudfoundry/bosh-utils/httpclient"
-	"github.com/cloudfoundry/bosh-utils/logger/loggerfakes"
+	. "github.com/bluebosh/bosh-utils/httpclient"
+	"github.com/bluebosh/bosh-utils/logger/loggerfakes"
 )
 
 var _ = Describe("HTTPClient", func() {

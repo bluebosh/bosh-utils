@@ -7,9 +7,9 @@ import (
 
 	"errors"
 
-	bosherr "github.com/cloudfoundry/bosh-utils/errors"
-	boshsys "github.com/cloudfoundry/bosh-utils/system"
-	boshuuid "github.com/cloudfoundry/bosh-utils/uuid"
+	bosherr "github.com/bluebosh/bosh-utils/errors"
+	boshsys "github.com/bluebosh/bosh-utils/system"
+	boshuuid "github.com/bluebosh/bosh-utils/uuid"
 )
 
 type externalBlobstore struct {

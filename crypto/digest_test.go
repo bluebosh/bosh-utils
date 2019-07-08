@@ -6,14 +6,14 @@ import (
 
 	"errors"
 	"fmt"
-	. "github.com/cloudfoundry/bosh-utils/crypto"
+	. "github.com/bluebosh/bosh-utils/crypto"
 	"io/ioutil"
 	"os"
 	"strings"
 
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
-	boshsys "github.com/cloudfoundry/bosh-utils/system"
-	fakesys "github.com/cloudfoundry/bosh-utils/system/fakes"
+	boshlog "github.com/bluebosh/bosh-utils/logger"
+	boshsys "github.com/bluebosh/bosh-utils/system"
+	fakesys "github.com/bluebosh/bosh-utils/system/fakes"
 )
 
 var _ = Describe("digestImpl", func() {

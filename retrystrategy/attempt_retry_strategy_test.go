@@ -7,8 +7,8 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	fakelogger "github.com/cloudfoundry/bosh-utils/logger/fakes"
-	. "github.com/cloudfoundry/bosh-utils/retrystrategy"
+	fakelogger "github.com/bluebosh/bosh-utils/logger/fakes"
+	. "github.com/bluebosh/bosh-utils/retrystrategy"
 )
 
 var _ = Describe("AttemptRetryStrategy", func() {

@@ -54,7 +54,7 @@ resources:
   - name: bosh-utils
     type: git
     source:
-      uri: https://github.com/cloudfoundry/bosh-utils
+      uri: https://github.com/bluebosh/bosh-utils
       branch: develop
 
   - name: bosh-utils-promoted

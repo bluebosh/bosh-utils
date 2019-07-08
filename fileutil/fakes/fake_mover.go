@@ -4,7 +4,7 @@ package fakes
 import (
 	"sync"
 
-	"github.com/cloudfoundry/bosh-utils/fileutil"
+	"github.com/bluebosh/bosh-utils/fileutil"
 )
 
 type FakeMover struct {

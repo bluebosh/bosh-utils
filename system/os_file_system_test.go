@@ -17,9 +17,9 @@ import (
 
 	"io/ioutil"
 
-	. "github.com/cloudfoundry/bosh-utils/assert"
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
-	. "github.com/cloudfoundry/bosh-utils/system"
+	. "github.com/bluebosh/bosh-utils/assert"
+	boshlog "github.com/bluebosh/bosh-utils/logger"
+	. "github.com/bluebosh/bosh-utils/system"
 )
 
 func createOsFs() (fs FileSystem) {

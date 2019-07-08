@@ -6,7 +6,7 @@ trap {
 $env:GOPATH = Join-Path -Path $PWD "gopath"
 $env:PATH = $env:GOPATH + "/bin;C:/go/bin;" + $env:PATH
 
-cd $env:GOPATH/src/github.com/cloudfoundry/bosh-utils
+cd $env:GOPATH/src/github.com/bluebosh/bosh-utils
 
 if ((Get-Command "go.exe" -ErrorAction SilentlyContinue) -eq $null)
 {
@@ -22,7 +22,7 @@ if ((Get-Command "go.exe" -ErrorAction SilentlyContinue) -eq $null)
   Write-Host "Go is installed!"
 }
 
-go.exe install github.com/cloudfoundry/bosh-utils/vendor/github.com/onsi/ginkgo/ginkgo
+go.exe install github.com/bluebosh/bosh-utils/vendor/github.com/onsi/ginkgo/ginkgo
 ginkgo.exe -r -keepGoing -skipPackage="vendor"
 if ($LastExitCode -ne 0)
 {

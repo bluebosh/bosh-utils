@@ -4,7 +4,7 @@ package fakes
 import (
 	"sync"
 
-	"github.com/cloudfoundry/bosh-utils/blobstore"
+	"github.com/bluebosh/bosh-utils/blobstore"
 )
 
 type FakeBlobstore struct {

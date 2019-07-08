@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/cloudfoundry/bosh-utils/errors"
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
-	boshretry "github.com/cloudfoundry/bosh-utils/retrystrategy"
+	"github.com/bluebosh/bosh-utils/errors"
+	boshlog "github.com/bluebosh/bosh-utils/logger"
+	boshretry "github.com/bluebosh/bosh-utils/retrystrategy"
 )
 
 type retryClient struct {

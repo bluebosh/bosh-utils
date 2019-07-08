@@ -7,12 +7,12 @@ import (
 	"os/exec"
 	"time"
 
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
+	boshlog "github.com/bluebosh/bosh-utils/logger"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-utils/system"
+	. "github.com/bluebosh/bosh-utils/system"
 )
 
 var _ = Describe("execCmdRunner", func() {

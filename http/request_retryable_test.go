@@ -7,17 +7,17 @@ import (
 	"net/http"
 	"strings"
 
-	. "github.com/cloudfoundry/bosh-utils/http"
+	. "github.com/bluebosh/bosh-utils/http"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	fakehttp "github.com/cloudfoundry/bosh-utils/http/fakes"
+	fakehttp "github.com/bluebosh/bosh-utils/http/fakes"
 
 	"bytes"
 	"os"
 
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
+	boshlog "github.com/bluebosh/bosh-utils/logger"
 )
 
 type seekableReadClose struct {

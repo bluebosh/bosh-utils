@@ -3,7 +3,7 @@ package fakes
 import (
 	"net/http"
 
-	boshhttp "github.com/cloudfoundry/bosh-utils/http"
+	boshhttp "github.com/bluebosh/bosh-utils/http"
 )
 
 type doInput struct {

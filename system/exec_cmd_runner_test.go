@@ -9,9 +9,9 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
-	. "github.com/cloudfoundry/bosh-utils/system"
-	fakesys "github.com/cloudfoundry/bosh-utils/system/fakes"
+	boshlog "github.com/bluebosh/bosh-utils/logger"
+	. "github.com/bluebosh/bosh-utils/system"
+	fakesys "github.com/bluebosh/bosh-utils/system/fakes"
 )
 
 const ErrExitCode = 14

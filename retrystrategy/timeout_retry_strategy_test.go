@@ -7,10 +7,10 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
+	boshlog "github.com/bluebosh/bosh-utils/logger"
 	"github.com/pivotal-golang/clock/fakeclock"
 
-	. "github.com/cloudfoundry/bosh-utils/retrystrategy"
+	. "github.com/bluebosh/bosh-utils/retrystrategy"
 )
 
 var _ = Describe("TimeoutRetryStrategy", func() {

@@ -1,7 +1,7 @@
 package blobstore
 
 import (
-	boshcrypto "github.com/cloudfoundry/bosh-utils/crypto"
+	boshcrypto "github.com/bluebosh/bosh-utils/crypto"
 )
 
 type DigestBlobstore interface {

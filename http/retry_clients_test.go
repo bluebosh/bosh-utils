@@ -3,8 +3,8 @@ package http_test
 import (
 	"net/http"
 
-	fakehttp "github.com/cloudfoundry/bosh-utils/http/fakes"
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
+	fakehttp "github.com/bluebosh/bosh-utils/http/fakes"
+	boshlog "github.com/bluebosh/bosh-utils/logger"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
@@ -12,7 +12,7 @@ import (
 	"errors"
 	"fmt"
 
-	. "github.com/cloudfoundry/bosh-utils/http"
+	. "github.com/bluebosh/bosh-utils/http"
 )
 
 var _ = Describe("RetryClients", func() {

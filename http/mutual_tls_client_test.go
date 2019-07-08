@@ -11,7 +11,7 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/pivotal-cf/paraphernalia/secure/tlsconfig"
 
-	boshhttp "github.com/cloudfoundry/bosh-utils/http"
+	boshhttp "github.com/bluebosh/bosh-utils/http"
 )
 
 var _ = Describe("NewMutualTLSClient", func() {

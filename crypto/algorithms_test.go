@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-utils/crypto"
+	. "github.com/bluebosh/bosh-utils/crypto"
 )
 
 var _ = Describe("Algorithms", func() {

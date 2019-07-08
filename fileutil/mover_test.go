@@ -8,9 +8,9 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-utils/fileutil"
+	. "github.com/bluebosh/bosh-utils/fileutil"
 
-	"github.com/cloudfoundry/bosh-utils/system/fakes"
+	"github.com/bluebosh/bosh-utils/system/fakes"
 )
 
 var _ = Describe("Mover", func() {

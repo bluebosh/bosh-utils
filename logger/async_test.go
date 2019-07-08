@@ -9,7 +9,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-utils/logger"
+	. "github.com/bluebosh/bosh-utils/logger"
 )
 
 type intervalWriter struct {

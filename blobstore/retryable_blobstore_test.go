@@ -6,11 +6,11 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	boshblob "github.com/cloudfoundry/bosh-utils/blobstore"
-	fakeblob "github.com/cloudfoundry/bosh-utils/blobstore/fakes"
-	boshcrypto "github.com/cloudfoundry/bosh-utils/crypto"
-	bosherr "github.com/cloudfoundry/bosh-utils/errors"
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
+	boshblob "github.com/bluebosh/bosh-utils/blobstore"
+	fakeblob "github.com/bluebosh/bosh-utils/blobstore/fakes"
+	boshcrypto "github.com/bluebosh/bosh-utils/crypto"
+	bosherr "github.com/bluebosh/bosh-utils/errors"
+	boshlog "github.com/bluebosh/bosh-utils/logger"
 )
 
 var _ = Describe("retryableBlobstore", func() {

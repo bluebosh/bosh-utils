@@ -3,7 +3,7 @@ platform: windows
 
 inputs:
 - name: bosh-utils
-  path: gopath/src/github.com/cloudfoundry/bosh-utils
+  path: gopath/src/github.com/bluebosh/bosh-utils
 
 run:
   path: powershell
@@ -11,4 +11,4 @@ run:
   - "-ExecutionPolicy"
   - "Bypass"
   - "-File"
-  - gopath/src/github.com/cloudfoundry/bosh-utils/ci/tasks/test-unit.ps1
+  - gopath/src/github.com/bluebosh/bosh-utils/ci/tasks/test-unit.ps1

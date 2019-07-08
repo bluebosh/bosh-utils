@@ -8,9 +8,9 @@ import (
 
 	"fmt"
 
-	boshcrypto "github.com/cloudfoundry/bosh-utils/crypto"
-	bosherr "github.com/cloudfoundry/bosh-utils/errors"
-	boshsys "github.com/cloudfoundry/bosh-utils/system"
+	boshcrypto "github.com/bluebosh/bosh-utils/crypto"
+	bosherr "github.com/bluebosh/bosh-utils/errors"
+	boshsys "github.com/bluebosh/bosh-utils/system"
 )
 
 type BlobManager struct {

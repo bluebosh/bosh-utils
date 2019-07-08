@@ -4,11 +4,11 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-utils/blobstore"
-	boshcrypto "github.com/cloudfoundry/bosh-utils/crypto"
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
-	fakesys "github.com/cloudfoundry/bosh-utils/system/fakes"
-	boshuuid "github.com/cloudfoundry/bosh-utils/uuid"
+	. "github.com/bluebosh/bosh-utils/blobstore"
+	boshcrypto "github.com/bluebosh/bosh-utils/crypto"
+	boshlog "github.com/bluebosh/bosh-utils/logger"
+	fakesys "github.com/bluebosh/bosh-utils/system/fakes"
+	boshuuid "github.com/bluebosh/bosh-utils/uuid"
 )
 
 var _ = Describe("Provider", func() {

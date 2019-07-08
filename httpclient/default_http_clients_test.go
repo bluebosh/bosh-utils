@@ -6,8 +6,8 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-utils/httpclient"
-	"github.com/cloudfoundry/bosh-utils/httpclient/fakes"
+	. "github.com/bluebosh/bosh-utils/httpclient"
+	"github.com/bluebosh/bosh-utils/httpclient/fakes"
 )
 
 var _ HTTPClient = &fakes.FakeHTTPClient{}

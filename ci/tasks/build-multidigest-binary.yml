@@ -9,7 +9,7 @@ image_resource:
 
 inputs:
 - name: bosh-utils
-  path: gopath/src/github.com/cloudfoundry/bosh-utils
+  path: gopath/src/github.com/bluebosh/bosh-utils
 - name: version-semver
 
 outputs:
@@ -20,4 +20,4 @@ params:
   GOARCH: amd64
 
 run:
-  path: gopath/src/github.com/cloudfoundry/bosh-utils/ci/tasks/build-multidigest-binary.sh
+  path: gopath/src/github.com/bluebosh/bosh-utils/ci/tasks/build-multidigest-binary.sh

@@ -4,7 +4,7 @@ import (
 	"os"
 	"syscall"
 
-	boshsys "github.com/cloudfoundry/bosh-utils/system"
+	boshsys "github.com/bluebosh/bosh-utils/system"
 )
 
 type fileMover struct {

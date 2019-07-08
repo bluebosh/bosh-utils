@@ -4,7 +4,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "github.com/cloudfoundry/bosh-utils/system"
+	. "github.com/bluebosh/bosh-utils/system"
 )
 
 func init() {

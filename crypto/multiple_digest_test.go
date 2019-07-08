@@ -2,10 +2,10 @@ package crypto_test
 
 import (
 	"encoding/json"
-	. "github.com/cloudfoundry/bosh-utils/crypto"
-	boshlog "github.com/cloudfoundry/bosh-utils/logger"
-	boshsys "github.com/cloudfoundry/bosh-utils/system"
-	fakesys "github.com/cloudfoundry/bosh-utils/system/fakes"
+	. "github.com/bluebosh/bosh-utils/crypto"
+	boshlog "github.com/bluebosh/bosh-utils/logger"
+	boshsys "github.com/bluebosh/bosh-utils/system"
+	fakesys "github.com/bluebosh/bosh-utils/system/fakes"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"io"
